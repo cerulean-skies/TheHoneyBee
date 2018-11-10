@@ -173,7 +173,7 @@ function getFirstData(){
             if (foundPosts >= 50) {
               console.log(posts);
               console.log("Writing file and exiting.");
-              client.login('NTEwNzg2OTQ1MDY0ODk0NDY3.DshcSQ.OzAXRFpUo-AC8ASyC-Zqf42XzdA');
+              client.login('CLIENT-TOKEN');
 
               // writeNow();
               setTimeout(function(){
@@ -246,7 +246,7 @@ client.on('ready', () => {
   console.log('Hey there worker bees!');
   const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
 
-  client.channels.get('490304194750971920').send(`Hey there worker bees! Just dropping off some fresh pollen, **enjoy!!**`, {
+  client.channels.get('CHANNEL_ID').send(`Hey there worker bees! Just dropping off some fresh pollen, **enjoy!!**`, {
 files: [
   "./new.html"
 ]
