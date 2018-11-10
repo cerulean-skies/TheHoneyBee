@@ -1,0 +1,16 @@
+{
+  "name": "thehoneybee",
+  "version": "1.0.0",
+  "description": "Bot Tools for bHIVE Curation Nation",
+  "main": "buildingBlocks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@ceruleanblue",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "discord.js": "^11.4.2",
+    "wlsjs": "^0.1.1"
+  }
+}
